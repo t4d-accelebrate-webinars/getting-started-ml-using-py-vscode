@@ -1,0 +1,11 @@
+conda env list
+
+source activate base
+
+conda create --name digits_project
+
+conda activate digits_project
+
+conda install pandas matplotlib scikit-learn
+
+conda env remove -n digits_project
